@@ -1,0 +1,20 @@
+@import '../utils/mixins.scss';
+
+.MuiPaper-root {
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 5px;
+    @include shadow(gray);
+    margin-bottom: 10px;
+}
+.MuiCardContent-root {
+    align-self: center;
+    
+}
+.MuiCardMedia-root {
+    align-self: center;
+    box-shadow: none;
+}

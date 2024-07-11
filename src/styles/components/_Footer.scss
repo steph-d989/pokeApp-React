@@ -1,0 +1,9 @@
+@import '../utils/mixins.scss';
+@import '../utils/variables.scss';
+
+.footer{
+    min-height:10vh;
+    @include centered-content;
+    color:white;
+    background-color: black;
+}
